@@ -1,0 +1,40 @@
+:source-highlighter: highlightjs
+
+= ReadMe
+
+== このソフトウェアについて
+
+HTMLテンプレートエンジンpugでincludeしつつ変数を使ってみた。
+
+== 開発環境
+
+* LinuxMint 17.3 MATE 32bit
+** http://ytyaru.hatenablog.com/entry/2018/03/25/000000[node.js]
+*** http://ytyaru.hatenablog.com/entry/2018/03/26/000000[pug]
+
+== 実行
+
+[source, python]
+----
+bash -l
+pug -P page1.pug
+----
+
+== 結果
+
+* `page1.html` が出力される
+
+== ライセンス
+
+このソフトウェアはCC0ライセンスである。
+
+image:http://i.creativecommons.org/p/zero/1.0/88x31.png[link=http://creativecommons.org/publicdomain/zero/1.0/deed.ja]
+
+利用したソフトウェアとそのライセンスは以下。感謝。
+
+[options="header, autowidth"]
+|=======================
+|Library|License|Copyright
+|https://github.com/pugjs/pug[pug]|https://github.com/pugjs/pug#license[MIT]|https://github.com/pugjs/pug#license[pugjs/pug]
+|=======================
+
